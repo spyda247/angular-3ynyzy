@@ -1,0 +1,28 @@
+<h4>Flopbuster</h4>
+
+<div class="main-grey-panel d-flex m-1 mb-4 p-2" style="">
+  <div class="p-2 col-6">
+    We have all the best flops in the business!
+    <br>
+    Choose a flop to rent
+  </div>
+
+  
+  <div class="card p-2 col-6" >
+    <my-rental-list 
+      [rentalList]="rentalList"
+      (clearRentalList)="onClearRentalList()"
+      ></my-rental-list>
+  </div>
+  
+</div>
+  
+ 
+
+<div class="movie-panel">
+  
+  <my-movie-tile [movie]="wingCommander"></my-movie-tile>
+  
+  <my-movie-tile [movie]="catwoman"></my-movie-tile>
+
+</div>
