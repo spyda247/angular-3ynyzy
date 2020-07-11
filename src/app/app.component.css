@@ -3,6 +3,12 @@ p {
 }
 
 
-.main-grey-panel {background-color:#ccc; border-radius:0.25rem}
+.main-grey-panel {
+  background-color:#ccc; 
+  border-radius:0.25rem;
+}
 
-.movie-panel {display:flex; justify-content:space-around}
+.movie-panel {
+  display:flex; 
+  justify-content:space-around;
+}
